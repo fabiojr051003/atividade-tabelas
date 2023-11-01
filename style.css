@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3;
+    background: darkblue;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+td {
+    border: 1px solid black;
+
+}
+
+title,h1,h3{
+    color: #adff2f;
+    font-style: bold;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #adff2f;
+}
+
+a {
+    text-decoration: none;
+    color: #adff2f;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.numero {
+    text-align: center;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+tr {
+    color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.table-2 {
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 0.5px;
+    border-collapse: collapse;
+    border-right: 2.5px solid black;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: orangered;
+    color: black;
+}
+td{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: orangered;
+}
+
+tr:nth-child(odd) {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 32px;
+    height: 32px;
+}
+.pecaPreta{
+	background-image: url('peca_preta.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	color: white;
+}
+.pecaBranca{
+	background-image: url('peca_branca.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 28px;
+	color: black;
+}
+.q9{
+    width: 280px;
+    background-color: black;
+}
+.q7 tr:nth-child(even) td:nth-child(odd){
+	background-color: #a39f9f;}
+	
+.q7 tr:nth-child(odd) td:nth-child(even){
+	background-color: #a39f9f;
+}
